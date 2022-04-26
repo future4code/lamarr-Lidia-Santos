@@ -21,10 +21,11 @@ function imprimeMensagem() {
 function calculaAreaRetangulo() {
   let altura1 =(prompt("você tem um retângulo, qual a altura dele?"))
   let largura1 =(prompt("qual a largura desse retângulo?"))
-  altura1 = 3
-  largura1 = 5
+  
   const calculaAreaRetangulo = altura1 * largura1
+  
   console.log(calculaAreaRetangulo)
+  
  return altura1 * largura1
 
 }
