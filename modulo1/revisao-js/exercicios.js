@@ -36,22 +36,55 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  return Math.max.apply(Math,array)
 }
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+let maiorNum 
+let divisao
+let dife 
+if (num1 > num2) {
+  maiorNum= num1
+  divisao= num1 % num2 === 0
+  dife= num1 - num2
+}else {
+  maiorNum= num2
+  divisao= num2 % num1 === 0
+  dife= num2 - num1
+} 
+objetoDeNumeros= {
+  maiorNumero: maiorNum,
+  maiorDivisivelPorMenor: divisao,
+  diferenca: dife
+}
+return objetoDeNumeros
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+  let numerosPares = [];
+  for (let i = 0; numerosPares.length < n; i++) {
+      if (i % 2 == 0) {
+          numerosPares.push(i)
+      }
+  }
+  return numerosPares
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
 
+// if (ladoA + ladoB > ladoC && ladoA + ladoC > ladoB && ladoB + ladoC > ladoA) {
+  if (ladoA === ladoB && ladoA === ladoC && ladoB === ladoC) {
+   return ("Equilatero")
+  } else {
+   if  (ladoA !== ladoB && ladoA !== ladoC && ladoB !== ladoC)
+   return ("Escaleno")
+  } else {
+    return ("Isorceles")
+  }
+return classificaTriangulo
 }
 
 // EXERCÍCIO 10
