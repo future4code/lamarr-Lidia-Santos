@@ -1,0 +1,10 @@
+ Na aula maravilhosa, como sempre do Guibs, foi falado sobre resolver problemas que encontramos
+quando estamos codando. E como isso é frenquente viu?! principalmente nós, que ainda estamos seguindo
+no caminho para ser dev's.
+ E é muito importante primeira mente mantermos a calma, diante do caso a se resolver. O desespero é o 
+maior inimigo nessas horas! logo após isso, é se dar um tempo para assinilar o que deve ser feito.
+Realizar a leitura e releitura (se for preciso), do que for pedido na realizaão da tarefa. Separar o que
+achar relevante pra construção do código. E depois ver qual melhor metodologia para aplicar na hora da 
+contrução da nossa estrutura de códigos.
+ Importante também, além de tudo isso, é não ter medo de pedir ajuda caso não compreenda o que está sendo
+pedido.
