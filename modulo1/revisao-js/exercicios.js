@@ -75,30 +75,47 @@ function retornaNPrimeirosPares(n) {
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
 
-  if (ladoA === ladoB && ladoA === ladoC && ladoB === ladoC) {
-   return ("Equilatero")
-  } else {
-   if  (ladoA !== ladoB && ladoA !== ladoC && ladoB !== ladoC)
-   return ("Escaleno")
-  } else {
-    return ("Isorceles")
-  }
- return classificaTriangulo
+  if ((ladoA == ladoB) && (ladoB == ladoC)) {
+    return "Equilátero"
+}
+if ((ladoA == ladoB) || (ladoB == ladoC) || (ladoC == ladoA)) {
+    return "Isósceles"
+}
+else {
+    return "Escaleno"
+}
+
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+
   
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+  let chamada = {
+    nome: 'O Diabo Veste Prada',
+   ano: 2006,
+   diretor: 'David Frankel',
+   atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+  }
+   return (`Venha assistir ao filme ${chamada.nome}, de ${chamada.ano}, dirigido por ${chamada.diretor} e estrelado por ${chamada.atores[0]}, ${chamada.atores[1]}, ${chamada.atores[2]}, ${chamada.atores[3]}.`)
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+  let anonimato = {
+  	nome: "Astrodev",
+	idade: 25,
+	email: "astrodev@labenu.com.br",
+	endereco: "Rua do Futuro, 4"
+   }
+  let anonimato1 ={   ...anonimato,
+   nome: 'ANÔNIMO'
+  }
+  return anonimato1
 }
 
 // EXERCÍCIO 13A
