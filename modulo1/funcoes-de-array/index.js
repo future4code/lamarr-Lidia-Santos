@@ -94,3 +94,10 @@ let mensagemYpe = produtos.filter ((item, index, array) =>{
     return `Compre ${item.nome} por ${item.preco}`
 })
 console.log(mensagemYpe)
+
+
+
+// let ype = produtos.filter(intem => intem.nome.includes("Ypê"))
+// .map(item => `Compre ${item.nome} por ${item.preco}.`)
+// console.log(ype)
+
