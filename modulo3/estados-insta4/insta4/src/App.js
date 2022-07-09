@@ -18,7 +18,13 @@ function App() {
     fotoUsuario: 'https://picsum.photos/50/50?a=1',
     fotoPost: 'https://picsum.photos/200/150?a=1'
 
-  }]
+  },
+ {
+  nomeUsuario: 'Nero',
+    fotoUsuario: 'https://picsum.photos/50/50?a=1',
+    fotoPost: 'https://picsum.photos/200/150?a=1'
+ } 
+]
 
   const post = arrayPosts.map((post, index) => {
     return <Post
