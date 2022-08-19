@@ -1,14 +1,22 @@
+import './App.css';
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom'
+import { Main } from './Components/Main/Main';
+import { ResetButton } from './Components/ResetButton/ResetButton';
+import { AppContainer } from './Components/Main/Style';
 
-import Routes from './routes';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
+   <AppContainer>
+    <div className="App">
+  
+     <Main/>
+     <ResetButton/>
+     
+    </div>
+    </AppContainer>
+    
   );
+ 
 }
-
 export default App;
